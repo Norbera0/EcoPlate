@@ -1,70 +1,110 @@
-# EcoPlate 🌱
+# 🌱 **GreenBite: Carbon Footprint Food Tracker App**
 
-EcoPlate is a modern web application that helps users track and reduce their carbon footprint through meal logging and analysis. Built with Next.js and powered by AI, it provides insights into the environmental impact of your food choices.
+GreenBite is a modern web application that helps users understand and reduce their environmental impact through meal tracking and AI-powered carbon footprint analysis. Built with Next.js and powered by AI, it provides real-time insights into the environmental impact of your food choices.
 
-## Features
+## 🚀 **Core Features**
 
-- 📸 **Meal Logging**: Log your meals by taking photos and inputting quantities
-- 🌍 **Carbon Footprint Estimation**: AI-powered estimation of meal carbon footprints
-- 📊 **Progress Tracking**: Monitor your environmental impact with daily and weekly reports
-- 📈 **Visual Analytics**: Interactive charts and graphs showing your carbon footprint trends
-- 🔐 **User Authentication**: Secure login and personal data management
+### 1. 📷 **AI-Powered Meal Logging**
+- Take photos of your meals
+- AI automatically identifies food items and estimates quantities
+- Edit and confirm food items before saving
+- Instant carbon footprint calculation
+- Smart feedback and suggestions
 
-## Tech Stack
+### 2. 📊 **Progress Tracking & Analytics**
+- Daily and weekly carbon footprint reports
+- Interactive charts and visualizations
+- Comparison with national averages
+- Detailed meal history and insights
+- Achievement tracking and streaks
 
-- **Frontend**: Next.js 15, React 18, TypeScript
-- **Styling**: Tailwind CSS, Radix UI Components
+### 3. 💡 **AI-Powered Recommendations**
+- Personalized eco-friendly food suggestions
+- Smart meal alternatives
+- AI chatbot for sustainability advice
+- Custom tips based on eating patterns
+
+### 4. 🏆 **Gamification & Engagement**
+- Daily and weekly challenges
+- Achievement badges
+- Streak tracking
+- Progress milestones
+
+## 🛠️ **Technical Stack**
+
+- **Frontend Framework**: Next.js 15 with React 18
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI
 - **State Management**: React Context API
 - **AI Integration**: Google AI (via GenKit)
 - **Authentication**: Firebase
 - **Data Visualization**: Recharts
 - **Form Handling**: React Hook Form with Zod validation
 
-## Getting Started
+## 📱 **App Structure**
+
+### Pages
+- `/` - Home/Dashboard
+- `/log-meal` - Meal logging interface
+- `/meal-result` - Meal analysis results
+- `/reports` - Progress and analytics
+- `/review-meal` - Meal review and feedback
+- `/login` - Authentication
+
+### Key Components
+- AI-powered food recognition
+- Carbon footprint calculator
+- Progress charts and analytics
+- Recommendation engine
+- User authentication
+- Data persistence
+
+## 🚀 **Getting Started**
 
 ### Prerequisites
-
-- Node.js (Latest LTS version recommended)
+- Node.js (Latest LTS version)
 - npm or yarn
-- Firebase account (for authentication)
-- Google AI API key (for carbon footprint estimation)
+- Firebase account
+- Google AI API key
 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Norbera0/EcoPlate.git
-   cd EcoPlate
-   ```
+```bash
+git clone https://github.com/Norbera0/EcoPlate.git
+cd EcoPlate
+```
 
 2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+```bash
+npm install
+# or
+yarn install
+```
 
-3. Create a `.env.local` file in the root directory with your environment variables:
-   ```
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-   NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
-   GOOGLE_AI_API_KEY=your_google_ai_api_key
-   ```
+3. Set up environment variables:
+Create a `.env.local` file with:
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
+GOOGLE_AI_API_KEY=your_google_ai_api_key
+```
 
 4. Start the development server:
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+```
 
 The application will be available at `http://localhost:9002`
 
-## Project Structure
+## 📁 **Project Structure**
 
 ```
 src/
@@ -77,7 +117,7 @@ src/
 └── services/        # API and external service integrations
 ```
 
-## Contributing
+## 🤝 **Contributing**
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -85,14 +125,15 @@ src/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+## 📝 **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## 🙏 **Acknowledgments**
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Radix UI](https://www.radix-ui.com/)
-- [Google AI](https://ai.google.dev/)
-- [Firebase](https://firebase.google.com/)
+- Next.js
+- Tailwind CSS
+- Radix UI
+- Google AI
+- Firebase
+- Recharts
